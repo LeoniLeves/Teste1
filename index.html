@@ -3,40 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Troca Certa</title>
+	<title>Troca Certa</title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		body{
+			background-color:#347776;
+		}
+		.contener{
+			background-color: #002750;
+			text-align: center;
+		}
+		.menu{
+			background-color: #002750;
+			text-align: center;
+		}
+		header li{
+			display: inline-block;
+			margin: 0 10px;
+		}
+		header a{
+			text-decoration: none;
+			color: white;
+		}
+		header ul li:hover{
+			background-color: teal;
+			color: thistle;
+			border-radius: 5px;
+		}
+		h1{
+			text-align: right;
+			background-color: #909090;
+			padding-right: 20px;
+		}
+	</style>
 </head>
-<body style="background-color:#347776;">
-    <div style="background-color: #002750;">
-        <center><img src="img/Banner.png"></center>
-    </div>
-	<div style="background-color:#AAA;">
-		<i>COMPRA</i>
-		<i>VENDA</i>
-		<i>TROCA</i>
-		<i>PARCERIA</i>
-		<i>LOGIN</i>
-		<i>FALE CONOSCO</i>
-		<i>AJUDA</i>
-		
-    <h1 align="right"style="background-color:#909090;"><i>DESTAQUES</i></h1>
+<body>
+    <div class="contener">
+        <img src="img/Banner.png">
 	</div>
-	<table border="1">
-		<tr>
-			<td height="260" width="260"><img src="img/carro1.jpg"></td>
-			<td height="260" width="260"><img src="img/carro2.png"></td>
-			<td height="260" width="260"><img src="img/carro3.jpg"></td>
-			<td height="260" width="260"><img src="img/carro4.jpg"></td>
-			<td height="260" width="260"><img src="img/carro5.jpg"></td>
-		</tr>
-		<tr>
-			<td height="260" width="260"><img src="img/carro6.jpg"></td>
-			<td height="260" width="260"><img src="img/carro7.png"></td>
-			<td height="260" width="260"><img src="img/carro8.png"></td>
-			<td height="260" width="260"><img src="img/carro9.jpg"></td>
-			<td height="260" width="260"><img src="img/carro10.png"></td>
-		</tr>
-	</table>
-    
-
+	<div class="menu">
+		<header>
+			<nav>
+				<ul>
+					<li><i><a>Compra</a></i></li>
+					<li><i><a>Venda</a></i></li>
+					<li><i><a>Troca</a></i></li>
+					<li><i><a>Parceria</a></i></li>
+					<li><i><a>Login</a></i></li>
+					<li><i><a>Fale conosco</a></i></li>
+					<li><i><a>Ajuda</a></i></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div>
+    	<h1><i>DESTAQUES</i></h1>
+	</div>
+	<div align=center>
+		<table border="1">
+			<tr>
+				<td height="255" width="260" align="center"><img src="img/carro1.jpg"></td>
+				<td height="255" width="260" align="center"><img src="img/carro2.png"></td>
+				<td height="255" width="260" align="center"><img src="img/carro3.jpg"></td>
+				<td height="255" width="260" align="center"><img src="img/carro4.jpg"></td>
+				<td height="255" width="260" align="center"><img src="img/carro5.jpg"></td>
+			</tr>
+			<tr>
+				<td height="255" width="260" align="center"><img src="img/carro6.jpg"></td>
+				<td height="255" width="260" align="center"><img src="img/carro7.png"></td>
+				<td height="255" width="260" align="center"><img src="img/carro8.png"></td>
+				<td height="255" width="260" align="center"><img src="img/carro9.jpg"></td>
+				<td height="255" width="260" align="center"><img src="img/carro10.png"></td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>
